@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dejar de Fumar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Registro de Cigarrillos</h1>
+    <p>Haz clic cada vez que fumes un cigarro.</p>
+  </header>
+  <main>
+    <div class="counter">
+      <h2>Hoy has fumado:</h2>
+      <p id="counter">0</p>
+    </div>
+    <button id="register-button">Registrar Cigarrillo</button>
+    <section id="history">
+      <h3>Historial</h3>
+      <ul id="history-list"></ul>
+    </section>
+    <section id="analysis">
+      <h3>Análisis</h3>
+      <canvas id="chart" width="400" height="200"></canvas>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
